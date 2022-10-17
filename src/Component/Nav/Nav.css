@@ -1,0 +1,29 @@
+
+header {
+    background-color: rgb(51, 153, 148);
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-right {
+    margin-left: 30px;
+}
+
+#nav-left {
+   margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+a {
+     text-decoration: none;
+}
+
+p {
+    padding-right: 50px;
+    font-weight: 400;
+    color: rgb(172, 220, 223);
+    text-decoration:none;   
+    
+}
+
+ 

@@ -1,9 +1,15 @@
-
  
+import Form from "../Component/Form";
+import Contact from "../Component/Contact";
 
 function Home() {
+  
   return (
-    <div>Home</div>
+    <div>
+      home page View
+      <Form/>
+      <Contact/>
+    </div>
   )
 }
 

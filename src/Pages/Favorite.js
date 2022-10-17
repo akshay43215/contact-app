@@ -1,9 +1,12 @@
+import Contact from "../Component/Contact";
 
 
 
 function Favorite() {
   return (
-    <div>Favorite</div>
+    <div>
+      <Contact/>
+    </div>
   )
 }
 
