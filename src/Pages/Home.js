@@ -1,13 +1,14 @@
  
 import Form from "../Component/Form";
 import Contact from "../Component/Contact";
+import FormComp from "../Component/Form";
 
 function Home() {
   
   return (
     <div>
       home page View
-      <Form/>
+      <FormComp/>
       <Contact/>
     </div>
   )

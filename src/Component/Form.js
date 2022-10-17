@@ -1,22 +1,33 @@
+import { useForm } from "react-hook-form";
 
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
 
-function Form() {
+function FormComp() {
+  const { register, handleSubmit, formState, reset } = useForm();
+
   return (
-    <div className="form">
-       <div>
-       <span>Enter the Name</span>
-       <input type="text" />
-       </div>
-       <div>
-      <span>Enter the Email</span>
-      <input type="Email" />
-       </div>
-       <div>
-      <span>Enter the Phone No</span>
-      <input type="Phone" />
-       </div>
-    </div>
-  )
+    <Form>
+      <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control type="email" placeholder="Enter email" />
+        <Form.Text className="text-muted">
+          We'll never share your email with anyone else.
+        </Form.Text>
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Label>Password</Form.Label>
+        <Form.Control type="password" placeholder="Password" />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="formBasicCheckbox">
+        <Form.Check type="checkbox" label="Check me out" />
+      </Form.Group>
+      <Button variant="primary" type="submit">
+        Submit
+      </Button>
+    </Form>
+  );
 }
 
-export default Form
+export default FormComp;
