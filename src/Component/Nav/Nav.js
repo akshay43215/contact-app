@@ -11,13 +11,9 @@ function Nav() {
 
       <section id='nav-left'>
  
-        <Link to='/'>
-        <p id='nav-right'>Home</p>
-        </Link>
+        <Link to='/'> <p id='nav-right'>Home</p> </Link>
 
-        <Link to='favorite'>
-        <p>Favorites</p>
-        </Link>
+        <Link to='favorite'> <p>Favorites</p> </Link>
  
       </section>
 

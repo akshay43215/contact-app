@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  background-color: rgb(219 242 231 / 45%);
+  min-height: 100vh;
+
 }
 
- 
+/* .input-container {
+  background-color: red;
+  padding-left: 10px;
+} */
+input {
+  border-radius: 6px;
+  padding: 5px 6px;
+  margin: 8px;
+
+}
